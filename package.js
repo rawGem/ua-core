@@ -73,7 +73,7 @@ Package.on_use(function(api) {
 });
 
 Package.on_test(function(api) {
-    api.use("useraccounts:core@1.8.1");
+    api.use("rwgm:core@1.8.1");
 
     api.use([
         'accounts-password',
